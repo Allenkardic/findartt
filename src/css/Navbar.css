@@ -1,0 +1,40 @@
+/** @format */
+
+.sidebar {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  z-index: 1;
+}
+
+.sidebar-item-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  border: 2px solid red;
+  background: green;
+}
+.bar {
+  font-size: 2em;
+  margin-left: 0.5rem;
+  color: red;
+  z-index: 1;
+}
+
+ul li {
+  list-style: none;
+  border-bottom: 2px solid orange;
+  padding: 1.5rem 0rem 1.5rem 0.5rem;
+  text-align: left;
+}
+
+li {
+  border-bottom: 2px solid red;
+}

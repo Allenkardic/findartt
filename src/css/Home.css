@@ -1,0 +1,73 @@
+/** @format */
+
+.home-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-home-url {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0.5rem;
+}
+
+.home-url {
+  border-radius: 4px;
+  max-width: 100%;
+  width: 100%;
+  height: 140vh;
+  background-repeat: no-repeat;
+  position: center;
+}
+
+.home-description {
+  border: 0.5px solid whitesmoke;
+  background: whitesmoke;
+  border-radius: 5px;
+  color: blue;
+}
+
+.home-url-art {
+  border-radius: 4px;
+  max-width: 100%;
+  width: 100%;
+  height: 140vh;
+  background-repeat: no-repeat;
+  position: center;
+}
+
+.bid-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid yellow;
+  margin: 3% 38% 0% 38%;
+  padding-bottom: 2rem;
+}
+
+.minimum-bid {
+  display: flex;
+  font-size: 1.5em;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.9rem 2rem;
+  border: 2px solid whitesmoke;
+  color: red;
+  background: whitesmoke;
+}
+.bid-amount {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 2px solid lightgreen;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0.9rem 2rem;
+  background: lightgreen;
+  color: black;
+}
+
+.bid-amount-item {
+  padding-left: 1rem;
+}

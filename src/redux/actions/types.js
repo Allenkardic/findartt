@@ -1,0 +1,8 @@
+export const SET_AUTHENTICATED = "SET_AUTHENTICATED";
+export const SET_UNAUTHENTICATED = "SET_UNAUTHENTICATED";
+export const SET_ERROR = "SET_ERROR";
+export const SET_NOERROR = "SET_NOERROR";
+export const UI_LOADING = "UI_LOADING";
+export const UI_NOLOADING = "UI_NOLOADING";
+export const GET_ARTTWORKS = "GET_ARTTWORKS";
+export const GET_ARTTWORK = "GET_ARTTWORK";

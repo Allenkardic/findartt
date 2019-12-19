@@ -1,0 +1,41 @@
+/** @format */
+
+.form-container {
+  margin: 2rem 15rem;
+  padding: 2rem 4rem;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-items {
+  width: 100%;
+  height: 4vh;
+  margin-bottom: 1rem;
+}
+
+.btn-default {
+  width: 100%;
+  height: 4vh;
+  color: red;
+  font-size: 1.2em;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 980px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 4rem;
+    padding: 2rem 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 1rem;
+    padding: 2rem 1rem;
+  }
+}
