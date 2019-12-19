@@ -55,7 +55,7 @@ const mapStateToProps = state => {
   };
 };
 
-export default connect(mapStateToProps, null)(Main);
+// export default connect(mapStateToProps, null)(Main);
 // .git file
 
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
